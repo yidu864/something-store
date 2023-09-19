@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "author:yidu864",
+    "bookSourceGroup": "dev_self",
+    "bookSourceName": "笔趣阁_biquge7",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge7.xyz",
+    "customOrder": 100,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55\",\n  \"Referer\": \"https://www.biquge7.xyz/\"\n}",
+    "lastUpdateTime": 0,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "author": "//div[@class=\"tits\"]/div[1]/span[1]/text()",
+        "coverUrl": "//div[@class=\"detail\"]/div/img/@src",
+        "intro": "//div[@class=\"detail\"]/p[1]/text()",
+        "kind": "//div[@class=\"navi\"]/div/a[2]/text()",
+        "lastChapter": "//div[@class=\"upd\"]/a/text()",
+        "name": "//div[@class=\"tits\"]/h1/strong/text()",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "//div[@class=\"list list_text\"]/div[3]/html()"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "//div/div/span/text()",
+        "bookList": "//div[@class=\"tui_1 fenlei\"]/div",
+        "bookUrl": "/a[1]/@href",
+        "checkKeyWord": "斗破苍穹",
+        "coverUrl": "//a[1]/img/@src",
+        "intro": "//div/p/text()",
+        "kind": "",
+        "name": "//div/div/a/@title"
+    },
+    "ruleToc": {
+        "chapterList": "//div[@class=\"list\"]/ul/li",
+        "chapterName": "//a/text()",
+        "chapterUrl": "//a/@href"
+    },
+    "searchUrl": "/search?keyword={{key}}",
+    "weight": 100
+}
